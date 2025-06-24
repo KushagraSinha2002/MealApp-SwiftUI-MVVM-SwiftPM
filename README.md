@@ -1,6 +1,6 @@
-# 🍱 Meal Delivery – iOS App (SwiftUI + MVVM)
+# 🍱 Meal Delivery – iOS App (SwiftUI + MVVM + Modular-Ready)
 
-A clean and responsive iOS sample app that displays a curated list of Korean meals in a grid layout. Built using **SwiftUI** and the **MVVM architecture**, this project demonstrates real-world app structure, UI polish, and component-driven design — ideal for showcasing iOS development skills.
+A clean, responsive iOS sample app that displays a curated list of Korean meals in a grid layout. Built using **SwiftUI** and **MVVM architecture**, this project showcases scalable app structure, real-world UI polish, and component-driven development — ideal for interviews, freelancing, and App Store prep.
 
 ---
 
@@ -16,35 +16,33 @@ A clean and responsive iOS sample app that displays a curated list of Korean mea
 
 ## 🎥 Demo Video
 
-[![Watch Demo](https://github.com/user-attachments/assets/21734164-776c-42a5-a147-1368d246ec63)](https://github.com/user-attachments/assets/21734164-776c-42a5-a147-1368d246ec63)
+https://github.com/user-attachments/assets/cf0bab19-4eea-4f1a-aa94-85a61f11c535
 
-🎬 [Click here to download and watch the demo video](https://github.com/user-attachments/assets/21734164-776c-42a5-a147-1368d246ec63)
+🎬 [Click here to download and watch the demo video](https://github.com/user-attachments/assets/cf0bab19-4eea-4f1a-aa94-85a61f11c535)
 
-> _Includes scrollable grid, tab transition, and layout responsiveness._
-
-
-> _Click to download and view the interaction demo. This video showcases the grid layout, tab transitions, and scroll behavior._
+> _Includes scrollable grid, tab transitions, animated gradients, and layout responsiveness._
 
 ---
 
 ## ✨ What This App Demonstrates
 
 ✅ Client-ready UI with attention to layout and UX  
-✅ MVVM pattern — clean separation of concerns  
-✅ SwiftUI mastery — LazyVGrid, GeometryReader, gradient backgrounds  
-✅ Reusable & scalable code structure  
-✅ Real-world navigation and state handling  
+✅ MVVM architecture — clean separation of concerns  
+✅ SwiftUI mastery — `LazyVGrid`, `GeometryReader`, gradient styling  
+✅ Scalable & modular-ready code structure (Swift Package support)  
+✅ Tab-based navigation and full-screen detail view handling  
 
 ---
 
 ## 🧩 Key Features
 
-- Tab-based layout using `TabView`
-- Mock data rendered in a responsive grid
-- Dynamic image sizing using `GeometryReader`
-- Reusable `Meal` model and `DataService`
-- Scrollable `AboutView` with markdown-style content
-- Styled with gradients, SF Symbols, and rounded UI
+- `TabView`-based app shell with two screens (Menu & About)
+- Responsive grid using `LazyVGrid`
+- Reusable `Meal` model with `Identifiable` conformance
+- Scrollable `AboutView` with Markdown-style layout
+- Custom `MealDetailView` with animated gradient background
+- Clean separation: **Model**, **ViewModel**, **View**
+- **Ready to modularize** using Swift Package Manager (SwiftPM)
 
 ---
 
@@ -62,7 +60,7 @@ Meal Delivery/
 ├── View/
 │   ├── MealView.swift
 │   ├── AboutView.swift
-│   └── MealDetailView.swift (coming soon)
+│   └── MealDetailView.swift
 │
 ├── MainView.swift
 └── Meal_DeliveryApp.swift
@@ -73,22 +71,22 @@ Meal Delivery/
 - Swift 5.9+
 - SwiftUI
 - MVVM architecture
+- Swift Package Manager (planned modular structure)
 - SF Symbols
 - Xcode 15+
 
 ## 🔜 Coming Soon
 
-- MealDetailView with full-screen image and description
-- Favorite meals feature
-- Search and filtering
-- Animation on image tap
-- Optional API integration
+- MealDataKit Swift Package module
+- Favorite meals (with local persistence)
+- Search & filtering functionality
+- Smooth image tap animation
+- Real API integration (Alamofire / URLSession)
     
 ## 🙌 Author
 
 Kushagra Sinha
 iOS Developer • SwiftUI Enthusiast • Clean Architecture Advocate
-
 “I build modular, maintainable iOS apps with modern UI and real-world structure.”
 
 ## 📃 License
@@ -100,3 +98,15 @@ This project is licensed under the MIT License.
 📧 [kushagrasinha2002@gmail.com](mailto:kushagrasinha2002@gmail.com)  
 🌐 [LinkedIn](https://www.linkedin.com/in/sinha-kushagra/)  
 🌐 [GitHub](https://github.com/KushagraSinha2002)  
+
+---
+
+## ✅ What's Improved
+
+- Emphasized **modular direction** (SwiftPM-ready)
+- Highlighted the real-world dev skills you’re showing
+- Clean fix to the demo video section (clickable only, image thumbnail placeholder removed)
+- Improved clarity, structure, and visual flow
+
+---
+
